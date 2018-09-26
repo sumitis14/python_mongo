@@ -1,0 +1,84 @@
+{
+	"block_number": 3056,
+	"block_time": 1537960380500,
+	"trace": {
+		"id": "1125ede029b3585ab5dad7d87354f5a46625b9ef72f6811f468e294398e7e165",
+		"block_num": 3056,
+		"block_time": "2018-09-26T11:13:00.500",
+		"receipt": {
+			"status": "executed",
+			"cpu_usage_us": 100,
+			"net_usage_words": 0
+		},
+		"elapsed": 102,
+		"net_usage": 0,
+		"scheduled": false,
+		"action_traces": [{
+			"receipt": {
+				"receiver": "eosio",
+				"act_digest": "7c3c2b94f91994365a4713db12de77b9c04857227797daea555d041707075bb0",
+				"global_sequence": 3055,
+				"recv_sequence": 3055,
+				"auth_sequence": [
+					["eosio", 3055]
+				],
+				"code_sequence": 0,
+				"abi_sequence": 0
+			},
+			"act": [{
+                    "account": "newname133",
+                    "name": "create",
+                    "authorization": [{
+                        "actor": "eosio",
+                        "permission": "active"
+                    }],
+                    "data": "784c7c460000000000ea3055000000000bee82c6f6724cf880e2ec723cfe06f5d137f5371920caa5f214a856ab5d0000000000000000000000000000000000000000000000000000000000000000983b223855decdf7c9c93b793d0409384292a8166fefd56be583a6206e8f6ecb000000000000"
+                },
+                {
+                    "account" : "mymultisig11",
+                    "name" : "create",
+                    "authorization" : [
+                        {
+                            "actor" : "partner11111",
+                            "permission" : "active"
+                        }
+                    ],
+                    "data" : "104208e1aa99afa9208410e2aa99afa9204e00000000000004454f53530000001c50617920706172746e65723120746f203220736f6d65206d6f6e6579"
+                },
+                {
+                    "account" : "partner11111",
+                    "name" : "transfer",
+                    "authorization" : [
+                        {
+                            "actor" : "partner11111",
+                            "permission" : "active"
+                        }
+                    ],
+                    "data" : "104208e1aa99afa9208410e2aa99afa9204e00000000000004454f53530000001c50617920706172746e65723120746f203220736f6d65206d6f6e6579"
+                },
+                {
+                    "account" : "mymultisig11",
+                    "name" : "create",
+                    "authorization" : [
+                        {
+                            "actor" : "partner11111",
+                            "permission" : "active"
+                        }
+                    ],
+                    "data" : "104208e1aa99afa9208410e2aa99afa9204e00000000000004454f53530000001c50617920706172746e65723120746f203220736f6d65206d6f6e6579"
+                }
+        ],
+			"context_free": false,
+			"elapsed": 34,
+			"cpu_usage": 0,
+			"console": "",
+			"total_cpu_usage": 0,
+			"trx_id": "1125ede029b3585ab5dad7d87354f5a46625b9ef72f6811f468e294398e7e165",
+			"block_num": 3056,
+			"block_time": "2018-09-26T11:13:00.500",
+			"account_ram_deltas": [],
+			"inline_traces": []
+		}],
+		"failed_dtrx_trace": null
+	}
+}
