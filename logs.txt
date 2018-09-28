@@ -1,0 +1,15 @@
+{"message":"Starting server","level":"info","timestamp":"2018-09-28T09:49:34.359Z"}
+{"message":"Server is listening on port: 3000","level":"info","timestamp":"2018-09-28T09:49:34.365Z"}
+{"message":"Resource info collected","level":"info","timestamp":"2018-09-28T09:49:44.626Z"}
+{"message":"Internal Server Error -- Could not perform Stake action","level":"error","timestamp":"2018-09-28T09:49:53.808Z"}
+{"message":"Started Staking","level":"info","timestamp":"2018-09-28T09:50:10.132Z"}
+{"message":"Internal Server Error -- Could not perform Unstake action","level":"error","timestamp":"2018-09-28T09:50:18.356Z"}
+{"message":"Starting server","level":"info","timestamp":"2018-09-28T09:53:15.301Z"}
+{"message":"Server is listening on port: 3000","level":"info","timestamp":"2018-09-28T09:53:15.308Z"}
+{"message":"UNSTAKING","level":"info","timestamp":"2018-09-28T09:53:24.744Z"}
+{"message":"UNSTAKING","level":"info","timestamp":"2018-09-28T09:53:30.882Z"}
+{"message":"Starting server","level":"info","timestamp":"2018-09-28T10:09:49.064Z"}
+{"message":"Server is listening on port: 3000","level":"info","timestamp":"2018-09-28T10:09:49.071Z"}
+{"message":"Resource info collected","level":"info","timestamp":"2018-09-28T10:10:04.274Z"}
+{"message":"Resource info collected","level":"info","timestamp":"2018-09-28T10:10:15.020Z"}
+{"status":500,"statusText":"Internal Server Error","level":"error","timestamp":"2018-09-28T10:10:23.417Z"}
