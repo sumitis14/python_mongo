@@ -4,10 +4,10 @@ module.exports = (app) => {
     // Retrieve resource information
     app.get('/account/:name', nodes.resourceInfo);
 
-    // Create a new Note
+    // Stake order
     app.post('/stake', nodes.stake);
 
-    // Retrieve all Notes
+    // Unstake order
     app.post('/unstake', nodes.unstake);
 
 
